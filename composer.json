@@ -15,6 +15,13 @@
         }
     },
     "require": {
+        "phptagstore/phptagstore": "dev-master",
         "akamai-open/edgegrid-client": "0.4.*"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fervo/php-tag-store"
+        }
+    ]
 }
