@@ -1,0 +1,20 @@
+{
+    "name": "phphttpcache/phphttpcache",
+    "description": "The monorepo for PhpHttpCache",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Nordlander",
+            "email": "magnus@fervo.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpHttpCache\\": "src/"
+        }
+    },
+    "require": {
+        "akamai-open/edgegrid-client": "0.4.*"
+    }
+}
